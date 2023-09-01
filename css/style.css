@@ -44,8 +44,7 @@ img:not(.nav-logo) {
 }
 
 .btn:hover {
-    background-color: var(--clr-sky-blue);
-    color: var(--clr-dark-greyish);
+    background-color: rgba(139, 72, 191, 0.7);
 }
 
 .section-center {
