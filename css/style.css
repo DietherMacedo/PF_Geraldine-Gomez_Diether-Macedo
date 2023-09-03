@@ -154,6 +154,89 @@ header {
     font-size: 0.9rem;
 }
 
+/*Diether's Section 3 CSS*/
+
+.prosTitle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 6vh 12vw;
+    background-color: #3CDDF3;;
+}
+    
+.prosTitleH2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7vw;
+    font-weight: 600;
+    line-height: 100%;
+    width: 100%;
+    padding-top: 10%;
+}
+    
+.prosTitleH3 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+    
+.prosSectionTop {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+}
+    
+.prosMainContainer {
+    display:flex;
+    background: #FAFAFA;
+    width: 100%;
+    padding-top: 6%;
+    padding-bottom: 6vh;
+    padding-left: 6%;
+}
+    
+.prosNumber {
+    border-radius: 4vw;
+    background: #8B48BF;
+    width: 14vw;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+}
+    
+.prosCompanyWide {
+    padding: 1.25vw 6vw;
+    margin-left: -3vw;
+    color: #323851;
+    background-color: rgba(139, 72, 191, 0.30);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.4vw;
+    font-weight: 600;
+}
+    
+.prosCompanyLorem {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-right: 6vw;
+    margin-left: -6vw;
+    color: #B3B2B7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.4vw;
+    font-weight: 500;
+}
+
+/*End of Diether's Section 3 CSS*/
+
 @media screen and (min-width: 850px) {
     main {
         min-height: calc(100vh - 100px);
@@ -214,6 +297,90 @@ header {
         width: 100%;
         margin: 4rem 0;
     }
+
+    /*Diether's Section 3 CSS*/
+
+    .prosTitle {
+        display: flex;
+        justify-content:space-between;
+        padding: 6vh 12vw;
+        background-color: #8B48BF;
+    }
+    
+    .prosTitleH2 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2.5vw;
+        font-weight: 600;
+        line-height: 130%;
+        width: 45%;
+        padding-top: 0%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .prosTitleH3 {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 500;
+        width: 45%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    
+    .prosSectionTop {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: #FAFAFA;
+    }
+    
+    .prosMainContainer {
+        display:flex;
+        width: 38vw;
+        padding-top: 6%;
+        padding-bottom: 6vh;
+        padding-left: 0%;
+    }
+    
+    .prosNumber {
+        border-radius: 2vw;
+        background: #8B48BF;
+        width: 5vw;
+        height: 4vh;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 600;
+    }
+    
+    .prosCompanyWide {
+        padding: 0.8vw 1.5vw;
+        margin-left: 0vw;
+        color: #323851;
+        background-color: rgba(139, 72, 191, 0);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
+    
+    .prosCompanyLorem {
+        padding-top: 0.8vh;
+        padding-bottom: 0.8vh;
+        padding-right: 1.5vw;
+        padding-left: 1.5vw;
+        color: #B3B2B7;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2vw;
+        font-weight: 500;
+    }
+
+    /*End of Diether's Section 3 CSS*/
+
 }
 
 @media screen and (min-width: 992px) {
@@ -235,73 +402,4 @@ header {
         display: block;
         font-size: 1rem;
     }
-}
-
-/*Diether's CSS*/
-
-.prosTitle {
-    display: flex;
-    justify-content: space-around;
-    padding: 6vh 12vw;
-    background-color: #8B48BF;
-}
-
-.prosTitleH2 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8vw;
-    font-weight: 600;
-    width: 30%;
-}
-
-.prosTitleH3 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
-    font-weight: 500;
-    width: 40%;
-}
-
-.prosSectionTop {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #FAFAFA;
-}
-
-.prosMainContainer {
-  display:flex;
-  width: 38vw;
-  padding-top: 6%;
-  padding-bottom: 6vh;
-}
-
-.prosNumber {
-  border-radius: 2vw;
-  background: #8B48BF;
-  width: 5vw;
-  height: 4vh;
-  display: flex;
-  align-items:center;
-  justify-content:center;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2vw;
-  font-weight: 600;
-}
-
-.prosCompanyWide {
-  padding: 0.8vw 1.5vw;
-  color: #323851;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2vw;
-  font-weight: 600;
-}
-
-.proCompanyLorem {
-  padding: 0.8vw 1.5vw;
-  color: #323851;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2vw;
-  font-weight: 500;
 }
