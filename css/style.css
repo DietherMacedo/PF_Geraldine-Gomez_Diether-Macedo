@@ -35,6 +35,8 @@ img:not(.nav-logo) {
     display: block;
 }
 
+/* Sportit main section - Geraldine */
+
 .btn {
     background-color: var(--clr-violet);
     color: var(--clr-light-gray);
@@ -42,10 +44,11 @@ img:not(.nav-logo) {
     padding: 1rem 2rem;
     font-size: 0.8rem;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .btn:hover {
-    background-color: rgba(139, 72, 191, 0.7);
+    background-color: #8b48bfb3;
 }
 
 .section-center {
@@ -77,14 +80,21 @@ header {
 }
 
 .nav-toggle {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     cursor: pointer;
     transition: var(--transition);
 }
 
 .nav-toggle:hover {
-    transform: rotate(-90deg);
-    color: var(--clr-sky-blue);
+    transition: var(--transition);
+}
+
+.fa-bars {
+    color: var(--clr-dark-greyish);
+}
+
+.fa-x {
+    color: #f46548;
 }
 
 .nav-links {
@@ -122,7 +132,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin: 1.2rem 0 1rem;
+    margin: 1rem 0
 }
 
 .main-info-section img {
@@ -131,14 +141,14 @@ header {
 }
 
 .main-info {
-    margin: 4rem 1.7rem;
+    margin: 4rem 1.2rem;
     display: flex;
     flex-direction: column;
 }
 
 .main-info h1 {
     color: var(--clr-dark-blue);
-    font-size: 2.57rem;
+    font-size: 2.2rem;
     font-weight: 700;
     text-align: right;
 }
@@ -161,7 +171,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 6vh 12vw;
-    background-color: #3CDDF3;;
+    background-color: #3CDDF3;
 }
     
 .prosTitleH2 {
@@ -239,7 +249,6 @@ header {
 
 @media screen and (min-width: 850px) {
     main {
-        min-height: calc(100vh - 100px);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -258,6 +267,8 @@ header {
         align-items: center;
         justify-content: space-between;
         padding: 0 1.5rem;
+        max-width: 1250px;
+        margin: 0 auto;
     }
 
     .nav-links ul {
@@ -286,7 +297,9 @@ header {
 
     .main-info-section {
         flex-direction: row;
-        gap: 8rem;
+        gap: 4rem;
+        min-height: calc(100vh - 100px);
+        align-items: center;
     }
 
     .main-info-section img {
@@ -401,5 +414,255 @@ header {
     .navbar-btn {
         display: block;
         font-size: 1rem;
+    }
+}
+
+/* Different between pros section - Diether*/
+
+.prosTitle {
+    display: flex;
+    justify-content: space-around;
+    padding: 6vh 12vw;
+    background-color: #8B48BF;
+}
+
+.prosTitleH2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 600;
+    width: 30%;
+}
+
+.prosTitleH3 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+    width: 40%;
+}
+
+.prosSectionTop {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+}
+
+.prosMainContainer {
+    display: flex;
+    width: 38vw;
+    padding-top: 6%;
+    padding-bottom: 6vh;
+}
+
+.prosNumber {
+    border-radius: 2vw;
+    background: #8B48BF;
+    width: 5vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.prosCompanyWide {
+    padding: 0.8vw 1.5vw;
+    color: #323851;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.proCompanyLorem {
+    padding: 0.8vw 1.5vw;
+    color: #323851;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+/* Footer section - Geraldine */
+
+footer {
+    background-color: var(--clr-dark-greyish);
+    display: flex;
+    flex-direction: column;
+    padding: 1.7rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.footer-col {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.footer-form form {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.footer-form input {
+    padding: 0.7rem;
+    border-radius: 3.13rem;
+    width: 255px;
+}
+
+.submit-btn {
+    border: none;
+    padding: 0rem 1.7rem;
+}
+
+.submit-btn:hover {
+    background-color: #ca87fdb3;
+}
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links li {
+    padding: 0.3rem;
+}
+
+.footer-links a {
+    color: var(--clr-light-gray);
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition: var(--transition);
+}
+
+.footer-links a:hover {
+    color: var(--clr-sky-blue)
+}
+
+.footer-social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.7rem;
+}
+
+.footer-social-links ul {
+    display: flex;
+    width: 290px;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    color: var(--clr-light-gray);
+    font-size: 1.4rem;
+    transition: var(--transition);
+}
+
+.fa-brands:hover {
+    color: var(--clr-sky-blue);
+    transform: scale(1.2);
+}
+
+.footer-social-links .footer-logo {
+    width: 110px;
+    margin: 3.4rem 0 1rem;
+}
+
+.copyright p {
+    color: #8C8C94;
+    font-size: 0.78rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .footer-content {
+        flex-direction: row;
+        padding: 2rem;
+        justify-content: space-evenly;
+    }
+
+    .footer-social-links ul {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    footer {
+        padding: 4rem;
+    }
+
+    .footer-content {
+        gap: 6rem;
+        padding: 0;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-col:nth-child(1) {
+        flex-direction: row;
+        gap: 8rem;
+    }
+
+    .footer-links-container {
+        gap: 13rem;
+    }
+
+    .footer-form {
+        order: 2;
+    }
+
+    .footer-col:nth-child(2) {
+        order: -1;
+        align-items: center;
+    }
+
+    .footer-social-links {
+        flex-direction: column-reverse;
+    }
+
+    .footer-social-links .footer-logo {
+        margin: -0.5rem 0 2.5rem;
+        align-self: flex-start;
+    }
+
+    .footer-social-links ul {
+        width: 140px;
+        margin-top: 1rem;
+    }
+
+    .footer-links li {
+        width: 120px;
+    }
+
+    .copyright {
+        width: 100%;
+        align-self: flex-end;
+        max-width: 1190px;
+        margin: 0 auto;
+    }
+
+    .copyright p {
+        text-align: right;
+        margin: 0;
+        font-size: 0.85rem;
     }
 }
