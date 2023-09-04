@@ -171,7 +171,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 6vh 12vw;
-    background-color: #3CDDF3;
+    background-color: #3CDDF3;;
 }
     
 .prosTitleH2 {
@@ -211,7 +211,7 @@ header {
 }
     
 .prosNumber {
-    border-radius: 4vw;
+    border-radius: 6vw;
     background: #8B48BF;
     width: 14vw;
     height: 10vh;
@@ -225,8 +225,8 @@ header {
 }
     
 .prosCompanyWide {
-    padding: 1.25vw 6vw;
-    margin-left: -3vw;
+    padding: 2.5vw 8vw;
+    margin-left: -3.8vw;
     color: #323851;
     background-color: rgba(139, 72, 191, 0.30);
     font-family: 'Open Sans', sans-serif;
@@ -385,7 +385,7 @@ header {
         padding-top: 0.8vh;
         padding-bottom: 0.8vh;
         padding-right: 1.5vw;
-        padding-left: 1.5vw;
+        padding-left: 7.5vw;
         color: #B3B2B7;
         font-family: 'Open Sans', sans-serif;
         font-size: 1.2vw;
@@ -415,75 +415,6 @@ header {
         display: block;
         font-size: 1rem;
     }
-}
-
-/* Different between pros section - Diether*/
-
-.prosTitle {
-    display: flex;
-    justify-content: space-around;
-    padding: 6vh 12vw;
-    background-color: #8B48BF;
-}
-
-.prosTitleH2 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8vw;
-    font-weight: 600;
-    width: 30%;
-}
-
-.prosTitleH3 {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
-    font-weight: 500;
-    width: 40%;
-}
-
-.prosSectionTop {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #FAFAFA;
-}
-
-.prosMainContainer {
-    display: flex;
-    width: 38vw;
-    padding-top: 6%;
-    padding-bottom: 6vh;
-}
-
-.prosNumber {
-    border-radius: 2vw;
-    background: #8B48BF;
-    width: 5vw;
-    height: 4vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
-    font-weight: 600;
-}
-
-.prosCompanyWide {
-    padding: 0.8vw 1.5vw;
-    color: #323851;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
-    font-weight: 600;
-}
-
-.proCompanyLorem {
-    padding: 0.8vw 1.5vw;
-    color: #323851;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
-    font-weight: 500;
 }
 
 /* Footer section - Geraldine */
