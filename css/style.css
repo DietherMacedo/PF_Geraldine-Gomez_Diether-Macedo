@@ -205,7 +205,7 @@ header {
     display:flex;
     background: #FAFAFA;
     width: 100%;
-    padding-top: 6%;
+    padding-top: 10%;
     padding-bottom: 6vh;
     padding-left: 6%;
 }
@@ -246,6 +246,24 @@ header {
 }
 
 /*End of Diether's Section 3 CSS*/
+
+/*Start of Diether's Section 4 CSS*/
+
+.bestSectionTitle {
+    text-align: center;
+    margin: 8vh 0vh;
+    font-size: 4vw;
+}
+
+.userMainContainer {
+    width: 35%;
+}
+
+.userImageMain {
+    width: 5%;
+}
+
+/*End of Diether's Section 4 CSS*/
 
 @media screen and (min-width: 850px) {
     main {
