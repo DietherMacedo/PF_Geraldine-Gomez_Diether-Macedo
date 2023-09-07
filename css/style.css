@@ -209,12 +209,12 @@ header {
     padding-bottom: 6vh;
     padding-left: 6%;
 }
-    
+
 .prosNumber {
     border-radius: 6vw;
     background: #8B48BF;
     width: 14vw;
-    height: 10vh;
+    height: 20.8%;
     display: flex;
     align-items:center;
     justify-content:center;
@@ -225,7 +225,7 @@ header {
 }
     
 .prosCompanyWide {
-    padding: 2.5vw 8vw;
+    padding: 2.8% 8%;
     margin-left: -3.8vw;
     color: #323851;
     background-color: rgba(139, 72, 191, 0.30);
@@ -252,15 +252,113 @@ header {
 .bestSectionTitle {
     text-align: center;
     margin: 8vh 0vh;
-    font-size: 4vw;
+    font-size: 8vw;
+    margin-top: 20%;
 }
 
-.userMainContainer {
-    width: 35%;
+.cardsAlignment {
+    display: flex;
+    justify-content: center;
 }
 
-.userImageMain {
-    width: 5%;
+.mainCard {
+    width: 90%;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    padding-bottom: 4%;
+}
+
+.mainCardVisibility {
+    display: none;
+}
+
+.userImgContainer {
+    width: 20%;
+    position: relative;
+    top: -15%;
+}
+
+.cardPersonName {
+    font-size: 2.8vw;
+    line-height: 5vh;
+    text-align: center;
+    font-weight: 600;
+    color: #3F4868;
+    margin: 4vh 10vw;
+}
+
+.cardDescription {
+    font-size: 2.8vw;
+    line-height: 5vh;
+    text-align: center;
+    font-weight: 400;
+    color: #B9B9C1;
+    margin: 4vh 10vw;
+}
+
+.btnAlign {
+    text-align: center;
+}
+
+.btnSectionFour {
+    background-color: #8B48BF;
+    color: #f9f9f9;
+    border-radius: var(--border-radius);
+    font-size: 1.2rem;
+    transition: var(--transition);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 12% 38%;
+    padding: 2.5% 0%;
+}
+
+.btnSectionFour:hover {
+    background-color: #3CDDF3;
+}
+
+.getToKnow {
+    background-color: #3CDDF3;
+    padding: 6rem 4rem;
+}
+
+.getToKnowTitle {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getToKnowTitle::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.btnSectionFour2nd {
+    background-color: #232C50;
+    color: #f9f9f9;
+    border-radius: var(--border-radius);
+    font-size: 1.2rem;
+    transition: var(--transition);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 12% 34% 4%;
+    padding: 3% 0%;
+}
+
+.btnSectionFour2nd:hover {
+    background-color: #8B48BF;
 }
 
 /*End of Diether's Section 4 CSS*/
@@ -411,6 +509,122 @@ header {
     }
 
     /*End of Diether's Section 3 CSS*/
+
+    /*Start of Diether's Section 4 CSS*/
+
+    .bestSectionTitle {
+        text-align: center;
+        margin: 8vh 0vh;
+        font-size: 8vw;
+        margin-top: 20%;
+    }
+
+    .cardsAlignment {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainCard {
+        width: 90%;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+        padding-bottom: 4%;
+    }
+
+    .mainCardVisibility {
+        display: none;
+    }
+
+    .userImgContainer {
+        width: 20%;
+        position: relative;
+        top: -15%;
+    }
+
+    .cardPersonName {
+        font-size: 2.8vw;
+        line-height: 5vh;
+        text-align: center;
+        font-weight: 600;
+        color: #3F4868;
+        margin: 4vh 10vw;
+    }
+
+    .cardDescription {
+        font-size: 2.8vw;
+        line-height: 5vh;
+        text-align: center;
+        font-weight: 400;
+        color: #B9B9C1;
+        margin: 4vh 10vw;
+    }
+
+    .btnAlign {
+        text-align: center;
+    }
+
+    .btnSectionFour {
+        background-color: #8B48BF;
+        color: #f9f9f9;
+        border-radius: var(--border-radius);
+        font-size: 1.2rem;
+        transition: var(--transition);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 12% 38%;
+        padding: 2.5% 0%;
+    }
+
+    .btnSectionFour:hover {
+        background-color: #3CDDF3;
+    }
+
+    .getToKnow {
+        background-color: #3CDDF3;
+        padding: 6rem 4rem;
+    }
+
+    .getToKnowTitle {
+        font-size: 4rem;
+        text-align: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .getToKnowTitle::after {
+        content: "\a";
+        white-space: pre;
+    }
+
+    .btnSectionFour2nd {
+        background-color: #232C50;
+        color: #f9f9f9;
+        border-radius: var(--border-radius);
+        font-size: 1.2rem;
+        transition: var(--transition);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 12% 34% 4%;
+        padding: 3% 0%;
+    }
+
+    .btnSectionFour2nd:hover {
+        background-color: #8B48BF;
+    }
+
+    /*End of Diether's Section 4 CSS*/
 
 }
 
