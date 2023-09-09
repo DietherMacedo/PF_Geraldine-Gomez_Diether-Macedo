@@ -814,7 +814,7 @@ input:focus {
     }
 
     .cardsAlignment {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     .best .btnAlign {
