@@ -363,9 +363,14 @@ footer {
 }
 
 .footer-form input {
-    padding: 0.7rem;
+    padding: 1rem 1.3rem;
     border-radius: 3.13rem;
     width: 300px;
+    border: transparent;
+}
+
+input:focus {
+    outline: 3.5px solid var(--clr-violet);
 }
 
 .submit-btn {
