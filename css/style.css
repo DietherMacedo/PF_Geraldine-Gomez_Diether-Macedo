@@ -823,6 +823,10 @@ footer {
         margin: 0 auto 5rem;
     }
 
+    .cards-func {
+        display: contents;
+    }
+
     .userImgContainer {
         width: 18%;
     }
